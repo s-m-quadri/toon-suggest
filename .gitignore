@@ -1,6 +1,8 @@
 *.pkl
-!model.pkl
-
 *.tsv*
 .venv
 _*
+build
+dist
+
+!model.pkl

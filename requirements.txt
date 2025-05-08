@@ -2,3 +2,4 @@ tk
 scikit-learn
 pandas
 numpy
+pyinstaller
