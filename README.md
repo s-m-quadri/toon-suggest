@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/186b26eb-a1e5-4c65-9a18-d19ef3419bdb)
+![image](https://github.com/user-attachments/assets/72968fca-0fbb-40a0-a465-c808bd2eb714)
 
 <div align="center">
   <h1><b><code>ToonSuggest</code> Animation Movie Recommender System</b></h1>
