@@ -1,9 +1,11 @@
+![image](https://github.com/user-attachments/assets/186b26eb-a1e5-4c65-9a18-d19ef3419bdb)
+
 <div align="center">
   <h1><b><code>ToonSuggest</code> Animation Movie Recommender System</b></h1>
   <p><strong>ToonSuggest</strong> is a simple, lightweight, and interactive movie recommender system designed for animation and cartoon titles using IMDb datasets. Built using Python and Tkinter, it allows you to train a recommendation model and get suggestions for similar titles based on textual similarity and user ratings.</p>
 
   <p>
-    <a href="https://s-m-quadri.me/projects/redbert">Homepage</a> ·
+    <a href="https://s-m-quadri.me/projects/toon-suggest">Homepage</a> ·
     <a href="https://github.com/s-m-quadri/toon-suggest">Repository</a> ·
     <a href="https://github.com/s-m-quadri/toon-suggest/releases">Download Executable</a> ·
     <a href="mailto:dev.smq@gmail.com">Contact</a>
