@@ -4,13 +4,20 @@ import src.train as train
 import threading
 import tkinter as tk
 from tkinter import filedialog
+import os
+import sys
 
+def resource_path(relative_path):
+    if hasattr(sys, "_MEIPASS"):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
 
 class TrainGUI:
     def __init__(self, master, on_complete):
         self.master = master
         self.on_complete = on_complete
         self.master.title("Train Recommender Model")
+        self.master.iconbitmap(resource_path("icon.ico"))
         self.master.geometry("500x300")
         self.master.configure(bg='#fff3b0')
 

@@ -3,12 +3,20 @@ from src.gui_train import TrainGUI
 
 import tkinter as tk
 from tkinter import messagebox, ttk
+import os
+import sys
+
+def resource_path(relative_path):
+    if hasattr(sys, "_MEIPASS"):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
 
 MODEL_PATH = 'model.pkl'
 
 class HomeGUI:
     def __init__(self, root):
         self.root = root
+        self.root.iconbitmap(resource_path("icon.ico"))
         self.root.title("IMDB-Based Animation Movie Recommender")
         self.root.geometry("700x450")
         self.root.configure(bg='#fff3b0')
