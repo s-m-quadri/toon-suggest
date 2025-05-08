@@ -34,7 +34,7 @@
 </div>
 
 
-📌 **Features**
+## 📌 **Features**
 
 - GUI-based interface with file selection, training, and recommendation
 - Uses TF-IDF vectorization for content-based filtering
@@ -42,7 +42,7 @@
 - One-click `.exe` build available (see Releases)
 - No external API or internet access required
 
-📌 **Getting Started**
+## 📌 **Getting Started**
 
 ### 1. Clone the Repository
 
@@ -67,7 +67,7 @@ python main.py
 
 Or download the pre-built `.exe` from the [Releases](https://github.com/s-m-quadri/toon-suggest/releases) section to run without Python.
 
-📌 **How It Works**
+## 📌 **How It Works**
 
 1. **Train the Model**
 
@@ -84,7 +84,7 @@ Or download the pre-built `.exe` from the [Releases](https://github.com/s-m-quad
    * Load the trained model.
    * Enter the name of a movie and click "Get Recommendations".
 
-📌 **Project Structure**
+## 📌 **Project Structure**
 
 ```
 ToonSuggest/
@@ -99,7 +99,7 @@ ToonSuggest/
     └── train.py             # Data loading, training, and saving logic
 ```
 
-📌 **Executable Build**
+## 📌 **Executable Build**
 
 To create a standalone `.exe`:
 
@@ -109,7 +109,7 @@ pyinstaller --onefile --noconsole setup.spec
 
 Or use the ready-built binary available in [Releases](https://github.com/s-m-quadri/toon-suggest/releases).
 
-📌 **IMDb Dataset Download**
+## 📌 **IMDb Dataset Download**
 
 ToonSuggest requires two official IMDb dataset files:
 
@@ -131,7 +131,7 @@ Download both from the official IMDb dataset portal:
 > Note: IMDb datasets are periodically updated, so you may retrain your model when new data becomes available.
 
 
-📌 **Walkthrough: How to Use the App**
+## 📌 **Walkthrough: How to Use the App**
 
 ### Home Window (`main.py` → `gui_home.py`)
 
@@ -159,11 +159,11 @@ Accessed via the "Train Model" button on the Home screen.
 
 > During training, all inputs are disabled to avoid interruptions.
 
-📌 **License**
+## 📌 **License**
 
 This project is licensed under the **GNU General Public License**.
 
-📌 **Contact**
+## 📌 **Contact**
 
 For bug reports or feature requests, please contact:
 **[dev.smq@gmail.com](mailto:dev.smq@gmail.com)**
